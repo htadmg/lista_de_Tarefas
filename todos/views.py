@@ -26,3 +26,4 @@ class TodoCompleteView(View):
         todo = get_object_or_404(Todo, pk=pk)
         todo.mark_has_complete()
         return redirect("todo_list")
+    
