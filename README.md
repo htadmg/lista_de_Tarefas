@@ -33,7 +33,7 @@ Para executar este projeto localmente, siga os passos abaixo:
 
 ### Passos de Instalação
 
-1. **Clone o Repositório**  
+1. **Clone o Repositório**
 
    ```bash
    git clone https://github.com/htadmg/projeto_lista_de_tarefas.git #https
