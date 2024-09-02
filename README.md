@@ -65,3 +65,27 @@ Para executar este projeto localmente, siga os passos abaixo:
    ```bash
    pip install -r requirements.txt
 
+## Configuração do Banco de Dados
+
+Aplique as migrações para configurar o banco de dados:
+
+```bash
+python manage.py migrate
+```
+
+### Criação de Superusuário
+
+Para acessar o painel administrativo, crie um superusuário:
+```bash
+python manage.py createsuperuser
+```
+
+### Iniciar o Servidor de Desenvolvimento
+
+Inicie o servidor de desenvolvimento com o comando:
+
+```bash
+python manage.py runserver
+```
+### Acessar o Projeto
+Abra um navegador e vá para http://127.0.0.1:8000/ para ver o aplicativo em funcionamento. Você pode acessar o painel administrativo em http://127.0.0.1:8000/admin/ usando as credenciais do superusuário que você criou.
