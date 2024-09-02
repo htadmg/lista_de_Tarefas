@@ -20,3 +20,7 @@ Todas essas funcionalidades são implementadas usando um **CRUD** (Create, Read,
 - **Django**: Framework web usado para construir o servidor e o gerenciamento de dados.
 - **Bootstrap**: Framework de front-end usado para criar uma interface de usuário responsiva e estilizada.
 - **HTML/CSS**: Linguagens de marcação e estilo usadas para construir e estilizar a interface do usuário.
+  
+## Dependências
+
+requirements.txt
