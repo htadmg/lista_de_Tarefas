@@ -20,7 +20,28 @@ Todas essas funcionalidades são implementadas usando um **CRUD** (Create, Read,
 - **Django**: Framework web usado para construir o servidor e o gerenciamento de dados.
 - **Bootstrap**: Framework de front-end usado para criar uma interface de usuário responsiva e estilizada.
 - **HTML/CSS**: Linguagens de marcação e estilo usadas para construir e estilizar a interface do usuário.
-  
-## Dependências
 
-requirements.txt
+## Como Configurar o Projeto
+
+Para executar este projeto localmente, siga os passos abaixo:
+
+### Pré-requisitos
+
+- **Python 3.x** instalado no seu sistema.
+- **Virtualenv** (opcional, mas recomendado) para criar um ambiente virtual.
+- **Git** (opcional) para clonar o repositório.
+
+### Passos de Instalação
+
+1. **Clone o Repositório**
+
+   ```bash
+   git clone https://github.com/htadmg/projeto_lista_de_tarefas.git #https
+   git clone git@github.com:htadmg/projeto_lista_de_tarefas.git #ssh
+   cd django-todo-list
+
+2. **Instale as dependências**
+
+   ```bash
+   pip install -r requeriments.txt
+
