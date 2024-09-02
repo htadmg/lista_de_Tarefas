@@ -35,37 +35,41 @@ Para executar este projeto localmente, siga os passos abaixo:
 
 1. **Clone o Repositório**
 
-    - Usando HTTPS:
-     ```bash
-     git clone https://github.com/htadmg/projeto_lista_de_tarefas.git
-     ```
-   - Usando SSH:
-     ```bash
-     git clone git@github.com:htadmg/projeto_lista_de_tarefas.git
-     ```
-   - Navegue até o diretório do projeto:
-     ```bash
-     cd projeto_lista_de_tarefas
-     ```
-   
-3. **Crie e Ative um Ambiente Virtual (opcional, mas recomendado)**
-    - **Para Linux/MacOS:**
-     ```bash
-     python -m venv venv
-     source venv/bin/activate
-     ```
+- Usando HTTPS:
+```bash
+git clone https://github.com/htadmg/projeto_lista_de_tarefas.git
+```
 
-   - **Para Windows:**
-     ```powershell
-     python -m venv venv
-     .\venv\Scripts\Activate.ps1
-     ```   
+- Usando SSH:
+```bash
+git clone git@github.com:htadmg/projeto_lista_de_tarefas.git
+```
+
+- Navegue até o diretório do projeto:
+```bash
+cd projeto_lista_de_tarefas
+```
+   
+2. **Crie e Ative um Ambiente Virtual (opcional, mas recomendado)**
+
+- **Para Linux/MacOS:**
+```bash
+python -m venv venv
+source venv/bin/activate
+```
+
+- **Para Windows:**
+```powershell
+python -m venv venv
+.\venv\Scripts\Activate.ps1
+```   
 3. **Instale as dependências**
 
-   ```bash
-   pip install -r requirements.txt
+```bash
+pip install -r requirements.txt
+```
 
-## Configuração do Banco de Dados
+### Configuração do Banco de Dados
 
 Aplique as migrações para configurar o banco de dados:
 
@@ -87,5 +91,6 @@ Inicie o servidor de desenvolvimento com o comando:
 ```bash
 python manage.py runserver
 ```
+
 ### Acessar o Projeto
 Abra um navegador e vá para http://127.0.0.1:8000/ para ver o aplicativo em funcionamento. Você pode acessar o painel administrativo em http://127.0.0.1:8000/admin/ usando as credenciais do superusuário que você criou.
