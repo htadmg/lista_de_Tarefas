@@ -37,15 +37,15 @@ Para executar este projeto localmente, siga os passos abaixo:
 
     - Usando HTTPS:
      ```bash
-     git clone https://github.com/htadmg/projeto_lista_de_tarefas.git
+     git clone https://github.com/htadmg/lista_de_Tarefas.git
      ```
    - Usando SSH:
      ```bash
-     git clone git@github.com:htadmg/projeto_lista_de_tarefas.git
+     git clone git@github.com:htadmg/lista_de_Tarefas.git
      ```
    - Navegue até o diretório do projeto:
      ```bash
-     cd projeto_lista_de_tarefas
+     gh repo clone htadmg/lista_de_Tarefas
      ```
    
 3. **Crie e Ative um Ambiente Virtual (opcional, mas recomendado)**
