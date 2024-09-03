@@ -45,7 +45,7 @@ Para executar este projeto localmente, siga os passos abaixo:
      ```
    - Navegue até o diretório do projeto:
      ```bash
-     gh repo clone htadmg/lista_de_Tarefas
+        cd .\lista_de_tarefas
      ```
    
 3. **Crie e Ative um Ambiente Virtual (opcional, mas recomendado)**
