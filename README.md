@@ -1,16 +1,18 @@
 # Django Todo List
 
+## Descrição do Projeto
+
 Este é um projeto simples de lista de tarefas (Todo List) construído usando Django, um framework web de alto nível para Python, e Bootstrap, um popular framework de CSS para design responsivo e interfaces de usuário rápidas.
 
 ## Funcionalidades
 
 O projeto Django Todo List permite que os usuários:
 
-- **Criem tarefas**: Adicione novas tarefas à lista de tarefas.
-- **Visualizem tarefas**: Veja todas as tarefas em uma lista organizada.
-- **Editem tarefas**: Modifique detalhes das tarefas existentes.
-- **Excluam tarefas**: Remova tarefas que não são mais necessárias.
-- **Finalizem tarefas**: Marque tarefas como concluídas.
+- Criem tarefas: Adicione novas tarefas à lista de tarefas.
+- Visualizem tarefas: Veja todas as tarefas em uma lista organizada.
+- Editem tarefas: Modifique detalhes das tarefas existentes.
+- Excluam tarefas: Remova tarefas que não são mais necessárias.
+- Finalizem tarefas: Marque tarefas como concluídas.
 
 Todas essas funcionalidades são implementadas usando um **CRUD** (Create, Read, Update, Delete) simples, utilizando Django como o backend e Bootstrap para estilização.
 
@@ -25,16 +27,7 @@ Todas essas funcionalidades são implementadas usando um **CRUD** (Create, Read,
 
 Para executar este projeto localmente, siga os passos abaixo:
 
-### Pré-requisitos
-
-- **Python 3.x** instalado no seu sistema.
-- **Virtualenv** (opcional, mas recomendado) para criar um ambiente virtual.
-- **Git** (opcional) para clonar o repositório.
-
-### Passos de Instalação
-
 1. **Clone o Repositório**
-
 - Usando HTTPS:
 ```bash
 git clone https://github.com/htadmg/lista_de_Tarefas.git
