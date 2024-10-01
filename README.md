@@ -41,7 +41,7 @@ git clone git@github.com:htadmg/lista_de_Tarefas.git
 cd .\lista_de_tarefas
 ```
    
-3. **Crie e Ative um Ambiente Virtual (opcional, mas recomendado)**
+2. **Crie e Ative um Ambiente Virtual (opcional, mas recomendado)**
 - **Para Linux/MacOS:**
 ```bash
 python -m venv venv
